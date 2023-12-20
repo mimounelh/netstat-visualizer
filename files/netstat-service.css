@@ -1,0 +1,50 @@
+svg {
+    height:400px;
+  }
+  
+  text {
+    font-weight: 300;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .node rect {
+    stroke: #999;
+    fill: #fff;
+    stroke-width: 1.5px;
+  }
+  
+  .edgePath path {
+    stroke: #333;
+    stroke-width: 1.5px;
+  }
+  
+  .local > rect {
+    fill: #ffc;
+    stroke-width: 3px;
+  }
+  
+  .null > rect, .null > foreignobject {
+    stroke-width: 0;
+  }
+  
+  .previousNode {
+      background: #ccf;
+  }
+  
+  a.resolve {
+      color:brown;
+      text-decoration:none;
+  }
+  
+  .settings {
+      width:30%;
+      min-width:300px;
+      background:#ddd;
+      padding:12px;
+  }
+  .graph {
+      background:white;
+      padding:12px;
+  }
+  
